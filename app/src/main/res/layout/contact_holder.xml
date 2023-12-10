@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/holder_bg"
+    android:layout_marginStart="10sp"
+    android:layout_marginEnd="10sp"
+    android:layout_marginTop="12sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="7sp"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_marginStart="10sp"
+            app:cardCornerRadius="45sp">
+
+            <ImageView
+                android:id="@+id/contactImg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_account" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29sp"
+            android:layout_marginRight="15sp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="UserName"
+                android:layout_marginBottom="5sp"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/txtMobile"
+                    android:gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9876543210"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/imgEdit"
+                android:src="@drawable/ic_edt"
+                android:layout_gravity="right"
+                android:layout_width="30sp"
+                android:layout_marginRight="19sp"
+                android:layout_height="30sp"/>
+
+            <ImageView
+                android:id="@+id/imgDelete"
+                android:src="@drawable/ic_delete"
+                android:layout_gravity="right"
+                android:layout_marginRight="10sp"
+                android:layout_width="30sp"
+                android:layout_height="30sp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "721134128082",
+    "project_id": "contact-book-d46f3",
+    "storage_bucket": "contact-book-d46f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721134128082:android:05060518d078e5654b160b",
+        "android_client_info": {
+          "package_name": "com.virendra.tarate.contactbook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk2LgLoOp-hnxAtIis0-tpFPDt6rwCEGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
